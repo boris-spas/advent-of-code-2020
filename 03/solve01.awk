@@ -1,7 +1,3 @@
-BEGIN {
-    i = 0;
-}
-
 {
     split($0, map, "");
     if (map[i+1] == "#") {

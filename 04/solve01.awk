@@ -4,4 +4,4 @@ BEGIN { RS="\n\n" }
     count++
 }
 
-END {print count}
+END { print count }

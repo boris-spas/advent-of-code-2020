@@ -8,7 +8,6 @@
     char = tmp[1];
     split($3, chars, "");
     for (i = 1; i <= length(chars); i++) {
-        print chars[i]" "char
         if (chars[i] == char) {
             count++;
         }

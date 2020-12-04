@@ -6,6 +6,7 @@ END {
             for (k = i; k <= NR; k++) {
                 if (data[i] + data[j] + data[k] == 2020) {
                     print data[i] * data[j] * data[k];
+                    exit
                 }
             }
         }

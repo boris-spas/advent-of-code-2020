@@ -13,3 +13,6 @@ test $(awk -f 03/solve02.awk 03/input) -eq 9354744432
 
 test $(awk -f 04/solve01.awk 04/input) -eq 228
 test $(awk -f 04/solve02.awk 04/input) -eq 175
+
+test $(awk -f 05/solve01.awk 05/input) -eq 866
+test $(awk -f 05/solve02.awk 05/input) -eq 583

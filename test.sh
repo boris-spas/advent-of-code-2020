@@ -16,3 +16,6 @@ test $(awk -f 04/solve02.awk 04/input) -eq 175
 
 test $(awk -f 05/solve01.awk 05/input) -eq 866
 test $(awk -f 05/solve02.awk 05/input) -eq 583
+
+test $(awk -f 06/solve01.awk 06/input) -eq 6297
+test $(awk -f 06/solve02.awk 06/input) -eq 3158
